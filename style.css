@@ -1,0 +1,87 @@
+@import url("https://fonts.googleapis.com/css2?family=Manrope:wght@400;800&display=swap");
+:root {
+  --primary-light-cyan: hsl(193, 38%, 86%);
+  --primary-neon-green: hsl(150, 100%, 66%);
+  --neutral-grey-blue: hsl(217, 19%, 38%);
+  --nuetral-dark-grey-blue: hsl(217, 19%, 24%);
+  --nuetral-dark-blue: hsl(218, 23%, 16%);
+  --fm-primary: "Manrope", sans-serif;
+  --fs-quote: 25px;
+}
+
+* {
+  margin: 0;
+  padding: 0;
+  outline: 0;
+  box-sizing: border-box;
+}
+::after,
+::before {
+  box-sizing: border-box;
+}
+
+body {
+  background-color: var(--nuetral-dark-blue);
+  display: flex;
+  flex-direction: column;
+  height: 100vh;
+  width: 100vw;
+  justify-content: center;
+  align-items: center;
+}
+
+.card {
+  display: flex;
+  flex-direction: column;
+  /* flex-wrap: wrap; */
+  padding: 1em;
+  margin: auto;
+  width: 350px;
+  background-color: var(--nuetral-dark-grey-blue);
+}
+
+img {
+  width: 100%;
+}
+
+.circle {
+  width: 60px;
+  height: 60px;
+  background-color: var(--primary-neon-green);
+  border-radius: 50%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.dice {
+  width: 25px;
+}
+
+p {
+  color: var(--primary-light-cyan);
+  font-family: var(--fm-primary);
+  font-size: var(--fs-quote);
+  font-weight: 800;
+}
+
+.quote {
+    text-align: center;
+}
+
+.quote::before {
+  content: open-quote;
+}
+
+.quote::after {
+  content: close-quote;
+}
+/* Artibution CSS */
+.attribution {
+  font-size: 11px;
+  text-align: center;
+  color: var(--primary-light-cyan);
+}
+.attribution a {
+  color: var(--primary-neon-green);
+}
