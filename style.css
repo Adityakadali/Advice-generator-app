@@ -1,4 +1,4 @@
-@import url("https://fonts.googleapis.com/css2?family=Manrope:wght@400;800&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=Manrope:wght@300;400;800&display=swap");
 :root {
   --primary-light-cyan: hsl(193, 38%, 86%);
   --primary-neon-green: hsl(150, 100%, 66%);
@@ -6,7 +6,7 @@
   --nuetral-dark-grey-blue: hsl(217, 19%, 24%);
   --nuetral-dark-blue: hsl(218, 23%, 16%);
   --fm-primary: "Manrope", sans-serif;
-  --fs-quote: 25px;
+  --fs-quote: 20px;
 }
 
 * {
@@ -31,11 +31,12 @@ body {
 }
 
 .card {
+  border-radius: 15px;
   display: flex;
   flex-direction: column;
-  /* flex-wrap: wrap; */
-  padding: 1em;
-  margin: auto;
+  flex-wrap: wrap;
+  padding: 2em;
+  margin: 0 auto;
   width: 350px;
   background-color: var(--nuetral-dark-grey-blue);
 }
@@ -52,6 +53,10 @@ img {
   display: flex;
   justify-content: center;
   align-items: center;
+  position: relative;
+  bottom: -60px;
+  margin: 0 auto;
+  margin-top: -40px;
 }
 
 .dice {
@@ -65,8 +70,19 @@ p {
   font-weight: 800;
 }
 
+.advice-id {
+  text-transform: uppercase;
+  letter-spacing: 2px;
+  text-align: center;
+  font-size: 12px;
+  color: var(--primary-neon-green);
+  font-weight: 800;
+  margin: 20px;
+}
+
 .quote {
-    text-align: center;
+  text-align: center;
+  margin-bottom: 20px;
 }
 
 .quote::before {
@@ -78,6 +94,8 @@ p {
 }
 /* Artibution CSS */
 .attribution {
+  font-family: var(--fs-quote);
+  margin: 40px auto;
   font-size: 11px;
   text-align: center;
   color: var(--primary-light-cyan);
