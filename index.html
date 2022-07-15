@@ -23,19 +23,19 @@
       </p>
       <picture>
         <source
-          media="(max-width: 400px)"
-          src="./images/pattern-divider-mobile.svg"
+          media="(min-width: 400px)"
+          srcset="./images/pattern-divider-desktop.svg"
         />
+        <source
+        media="(min-width: 300px)"
+        srcset="./images/pattern-divider-mobile.svg"
+        >
         <img src="./images/pattern-divider-desktop.svg" alt="" />
       </picture>
       <div class="circle">
         <img class="dice" src="./images/icon-dice.svg" alt="" />
       </div>
     </div>
-    <!-- Advice #Advice ID goes here -->
-
-    <!-- "Advice text goes here" -->
-
     <div class="attribution">
       Challenge by
       <a href="https://www.frontendmentor.io?ref=challenge" target="_blank"
@@ -43,5 +43,6 @@
       >. Coded by
       <a href="https://www.twitter.com/adityakadali">Kadali Aditya</a>.
     </div>
+    <script src="./script.js"></script>
   </body>
 </html>
