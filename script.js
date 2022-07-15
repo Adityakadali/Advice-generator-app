@@ -1,5 +1,5 @@
 const url = "https://api.adviceslip.com/advice";
-const idTag = document.querySelector(".advice-id");
+var idTag = document.querySelector(".advice-id");
 var quote = document.querySelector(".quote");
 
 var dice = document.querySelector(".circle");
