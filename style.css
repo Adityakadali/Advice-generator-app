@@ -6,7 +6,7 @@
   --nuetral-dark-grey-blue: hsl(217, 19%, 24%);
   --nuetral-dark-blue: hsl(218, 23%, 16%);
   --fm-primary: "Manrope", sans-serif;
-  --fs-quote: 20px;
+  --fs-quote: 28px;
 }
 
 * {
@@ -78,7 +78,7 @@ p {
   text-transform: uppercase;
   letter-spacing: 2px;
   text-align: center;
-  font-size: 12px;
+  font-size: 16px;
   color: var(--primary-neon-green);
   font-weight: 800;
   margin: 10px auto 20px auto;
