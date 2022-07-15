@@ -15,5 +15,4 @@ function LoadAdvice() {
 }
 
 dice.addEventListener("click", (event) => LoadAdvice());
-
-LoadAdvice()
+window.onload(LoadAdvice());
