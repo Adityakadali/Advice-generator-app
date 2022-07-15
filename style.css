@@ -36,8 +36,8 @@ body {
   flex-direction: column;
   flex-wrap: wrap;
   padding: 2em;
-  margin: 0 auto;
-  width: 300px;
+  margin: 0 2em;
+  max-width: 500px;
   background-color: var(--nuetral-dark-grey-blue);
 }
 
@@ -57,6 +57,10 @@ img {
   bottom: -60px;
   margin: 0 auto;
   margin-top: -40px;
+}
+
+.circle:hover {
+  box-shadow: 0px 0px 10px 10px hsla(150, 100%, 60%, 0.5);
 }
 
 .dice {
