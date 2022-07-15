@@ -11,9 +11,7 @@ This is a solution to the [Advice generator app challenge on Frontend Mentor](ht
 - Generate a new piece of advice by clicking the dice icon
 
 ### Screenshot
-<img src="./screenshots/mobile.png" width= "350px" alt="Mobile View">
-
-<img src="./screenshots/Desktop.png" height= "600px" alt="Desktop view">
+<img src="./screenshots/mobile.png" height= "500px" alt="Mobile View">    <img src="./screenshots/Desktop.png" height= "500px" alt="Desktop view">
 
 ### Links
 
