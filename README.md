@@ -13,9 +13,7 @@ This is a solution to the [Advice generator app challenge on Frontend Mentor](ht
 ### Screenshot
 <img src="./screenshots/mobile.png" width= "350px" alt="Mobile View">
 
-<img src="./screenshots/Desktop.png" height= "600px" alt="Mobile View">
-
-<!-- ![Desktop View](./screenshots/Desktop.png) -->
+<img src="./screenshots/Desktop.png" height= "600px" alt="Desktop view">
 
 ### Links
 
